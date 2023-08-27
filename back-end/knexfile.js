@@ -19,7 +19,7 @@ module.exports = {
   development: {
     client: "postgresql",
     pool: { min: 1, max: 5 },
-    connection: DATABASE_URL_DEVELOPMENT,
+    connection: "postgres://lardhyiv:4i75eu-JM7l_DdtQCloxJge98U-FD8bz@bubble.db.elephantsql.com/lardhyiv",
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
